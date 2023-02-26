@@ -1,8 +1,8 @@
 import { MainField, Square } from "./Field.styled";
 
-export const Field = ({ amount, changeCoordinates, fieldValue }) => {
+export const Field = ({ amount, changeCoordinates, fieldValue, fieldSize }) => {
   const handleSquareInvasion = (e) => {
-    if (fieldValue === "0") {
+    if (fieldValue === "0" || fieldSize !== fieldValue) {
       return;
     }
 

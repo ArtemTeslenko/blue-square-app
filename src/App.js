@@ -63,6 +63,7 @@ export const App = () => {
           amount={fieldSize}
           changeCoordinates={handleCoordinatesChange}
           fieldValue={fieldValue}
+          fieldSize={fieldSize}
         />
       </ContentBox>
       <ShowCoordinates coordinates={coordinates} />
