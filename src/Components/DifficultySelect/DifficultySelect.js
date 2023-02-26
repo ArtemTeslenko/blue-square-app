@@ -7,8 +7,9 @@ export const Select = ({ options, setSize, setValue, fieldValue }) => {
       <SelectField
         defaultValue={"Pick mode"}
         onChange={(e) => setValue(e.target.value)}
+        fieldValue={fieldValue}
       >
-        <Option>Pick mode</Option>
+        <Option value={0}>Pick mode</Option>
         {options.map(({ id, name, field }) => (
           <Option key={id} label={name} value={field} />
         ))}

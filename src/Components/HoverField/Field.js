@@ -1,7 +1,11 @@
 import { MainField, Square } from "./Field.styled";
 
-export const Field = ({ amount, changeCoordinates }) => {
+export const Field = ({ amount, changeCoordinates, fieldValue }) => {
   const handleSquareInvasion = (e) => {
+    if (fieldValue === "0") {
+      return;
+    }
+
     e.target.classList.toggle("hovered");
     const index = e.target.dataset.index;
     const col = (index % amount) + 1 >= 1 ? (index % amount) + 1 : index + 1;

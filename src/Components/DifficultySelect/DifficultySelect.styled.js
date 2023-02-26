@@ -11,6 +11,11 @@ const SelectField = styled.select`
   margin-right: 10px;
   min-width: 180px;
   font-size: 16px;
+  ${({ fieldValue }) => {
+    if (fieldValue === "0") {
+      return `background-color: #8095a6; color: #ffffff`;
+    }
+  }}
 `;
 
 const Option = styled.option``;

@@ -10,7 +10,7 @@ axios.defaults.baseURL = "https://6398e44229930e2bb3c4ce22.mockapi.io";
 export const App = () => {
   const [difficultyOpts, setDifficultyOpts] = useState([]);
   const [err, setErr] = useState(null);
-  const [fieldValue, setFieldValue] = useState(0);
+  const [fieldValue, setFieldValue] = useState("0");
   const [fieldSize, setFieldSize] = useState(5);
   const [coordinates, setCoordinates] = useState([]);
 
@@ -25,8 +25,14 @@ export const App = () => {
     value !== "Pick mode" && setFieldValue(value);
   };
 
+  const resetHoveredClass = () => {
+    const arr = document.querySelectorAll(".hovered");
+    [...arr].map((item) => item.classList.remove("hovered"));
+  };
+
   const handleSizeChange = () => {
     setCoordinates([]);
+    resetHoveredClass();
     fieldValue && setFieldSize(fieldValue);
   };
 
@@ -53,7 +59,11 @@ export const App = () => {
           fieldValue={fieldValue}
         />
         {err ? <p>{err}</p> : null}
-        <Field amount={fieldSize} changeCoordinates={handleCoordinatesChange} />
+        <Field
+          amount={fieldSize}
+          changeCoordinates={handleCoordinatesChange}
+          fieldValue={fieldValue}
+        />
       </ContentBox>
       <ShowCoordinates coordinates={coordinates} />
     </MainBox>
