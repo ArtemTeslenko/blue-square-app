@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/blue-square-app/static/css/main.d3fe27cf.css",
-    "main.js": "/blue-square-app/static/js/main.7d8c55af.js",
+    "main.js": "/blue-square-app/static/js/main.a495ff40.js",
     "index.html": "/blue-square-app/index.html",
     "main.d3fe27cf.css.map": "/blue-square-app/static/css/main.d3fe27cf.css.map",
-    "main.7d8c55af.js.map": "/blue-square-app/static/js/main.7d8c55af.js.map"
+    "main.a495ff40.js.map": "/blue-square-app/static/js/main.a495ff40.js.map"
   },
   "entrypoints": [
     "static/css/main.d3fe27cf.css",
-    "static/js/main.7d8c55af.js"
+    "static/js/main.a495ff40.js"
   ]
 }
