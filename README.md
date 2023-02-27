@@ -1,6 +1,6 @@
-# DEMO
+# Blue square
 
-[blue_square](https://artemteslenko.github.io/blue-square-app/)
+[demo](https://artemteslenko.github.io/blue-square-app/)
 
 ## Table of Contents
 
