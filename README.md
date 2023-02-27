@@ -1,4 +1,4 @@
-# Blue Square
+# DEMO
 
 [blue_square](https://artemteslenko.github.io/blue-square-app/)
 
@@ -11,8 +11,7 @@
 
 ## General Information
 
-- There is a funy application for square picking.
-- It can help to waste your time (for exampe waiting in queue).
+- It's a fun app which can help you if you're bored. (let's say standing in a line)
 
 ## Technologies Used
 
