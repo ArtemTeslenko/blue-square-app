@@ -22,8 +22,11 @@
 
 ## Screenshots
 
+-Pick mode
 ![Pick mode](./Screenshots/PickMode.png)
+-Press start
 ![Start Playing](./Screenshots/StartPlaying.png)
+-Enjoy
 ![Enjoy](./Screenshots/Enjoy.png)
 
 ## Contact
