@@ -1,7 +1,6 @@
 # Blue Square
 
-> Outline a brief description of your project.
-> Live demo [_here_](https://artemteslenko.github.io/blue-square-app/)
+[blue_square](https://artemteslenko.github.io/blue-square-app/)
 
 ## Table of Contents
 
